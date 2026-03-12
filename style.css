@@ -1,0 +1,35 @@
+:root {
+  --electric-blue: #0abab5;
+  --neon-purple: #9b59b6;
+  --dark-bg: #121212;
+  --light-text: #ffffff;
+  --neon-green: #2ecc71;
+  --cyan: #00ffff;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--light-text);
+}
+
+body {
+  background-color: var(--dark-bg);
+}
+
+.nav {
+  background-color: rgba(18, 18, 18, 0.95);
+  border-bottom: 2px solid var(--electric-blue);
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-text);
+}
